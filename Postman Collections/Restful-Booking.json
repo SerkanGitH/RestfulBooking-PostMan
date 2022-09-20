@@ -29,7 +29,7 @@
 					}
 				}
 			],
-			"_postman_id": "4b0a2af6-843c-4b92-8b26-0ef1b62d4624",
+			"id": "4b0a2af6-843c-4b92-8b26-0ef1b62d4624",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -59,7 +59,7 @@
 					}
 				}
 			],
-			"_postman_id": "90fb8610-d01e-4146-a74f-dae187db6a9b",
+			"id": "90fb8610-d01e-4146-a74f-dae187db6a9b",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -73,10 +73,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"firstname\" : \"Jim\",\n    \"lastname\" : \"Brown\",\n    \"totalprice\" : 111,\n    \"depositpaid\" : true,\n    \"bookingdates\" : {\n        \"checkin\" : \"2018-01-01\",\n        \"checkout\" : \"2019-01-01\"\n    },\n    \"additionalneeds\" : \"Breakfast\"\n}",
-					"options": {
-						"raw": {}
-					}
+					"raw": "{\n    \"firstname\" : \"Jim\",\n    \"lastname\" : \"Brown\",\n    \"totalprice\" : 111,\n    \"depositpaid\" : true,\n    \"bookingdates\" : {\n        \"checkin\" : \"2018-01-01\",\n        \"checkout\" : \"2019-01-01\"\n    },\n    \"additionalneeds\" : \"Breakfast\"\n}"
 				},
 				"url": "{{url}}/booking"
 			},
@@ -101,7 +98,7 @@
 					}
 				}
 			],
-			"_postman_id": "f9a8a12e-d820-4d4b-9f89-1bf5d5ad367f",
+			"id": "f9a8a12e-d820-4d4b-9f89-1bf5d5ad367f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -115,10 +112,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"username\" : \"admin\",\n    \"password\" : \"password123\"\n}",
-					"options": {
-						"raw": {}
-					}
+					"raw": "{\n    \"username\" : \"admin\",\n    \"password\" : \"password123\"\n}"
 				},
 				"url": "{{url}}/auth"
 			},
@@ -150,7 +144,7 @@
 					}
 				}
 			],
-			"_postman_id": "d14d5e09-68ed-414d-b539-d6e5a61b9ffd",
+			"id": "d14d5e09-68ed-414d-b539-d6e5a61b9ffd",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -179,10 +173,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"firstname\" : \"jess\",\n    \"lastname\" : \"Brown\",\n    \"totalprice\" : 111,\n    \"depositpaid\" : true,\n    \"bookingdates\" : {\n        \"checkin\" : \"2018-01-01\",\n        \"checkout\" : \"2019-01-01\"\n    },\n    \"additionalneeds\" : \"Breakfast\"\n}",
-					"options": {
-						"raw": {}
-					}
+					"raw": "{\n    \"firstname\" : \"jess\",\n    \"lastname\" : \"Brown\",\n    \"totalprice\" : 111,\n    \"depositpaid\" : true,\n    \"bookingdates\" : {\n        \"checkin\" : \"2018-01-01\",\n        \"checkout\" : \"2019-01-01\"\n    },\n    \"additionalneeds\" : \"Breakfast\"\n}"
 				},
 				"url": "{{url}}/booking/{{bookingid}}"
 			},
@@ -204,7 +195,7 @@
 					}
 				}
 			],
-			"_postman_id": "664ee9ae-9672-40f0-98c5-591a1d8df6cf",
+			"id": "664ee9ae-9672-40f0-98c5-591a1d8df6cf",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -238,7 +229,7 @@
 					}
 				}
 			],
-			"_postman_id": "dd935a85-0be3-4e09-8f42-386c3508c13f",
+			"id": "dd935a85-0be3-4e09-8f42-386c3508c13f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
