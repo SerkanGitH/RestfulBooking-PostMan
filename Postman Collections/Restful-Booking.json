@@ -6,6 +6,11 @@
 	},
 	"item": [
 		{
+			"name": "New Folder",
+			"item": [],
+			"id": "caa183a3-1b9b-4470-9990-76bed385e7d4"
+		},
+		{
 			"name": "ping",
 			"event": [
 				{
